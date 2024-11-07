@@ -49,7 +49,6 @@ from polars._dependencies import pandas as pd
 from polars._dependencies import pyarrow as pa
 from polars._typing import (
     DbWriteMode,
-    FloatFmt,
     JaxExportType,
     TorchExportType,
 )
@@ -155,6 +154,7 @@ if TYPE_CHECKING:
         DbWriteEngine,
         EngineType,
         FillNullStrategy,
+        FloatFmt,
         FrameInitTypes,
         IndexOrder,
         IntoExpr,
